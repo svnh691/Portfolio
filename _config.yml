@@ -1,15 +1,15 @@
-url: https://apoorvasingla.github.io
+url: https://saivenkatanirmalhruday.github.io
 
 # Site settings
 title: SAP Data Analyst Portfolio
-phone: +91-XXXXXXXXXX
-email: XXXXX@gmail.com
+phone: +91-8247568129
+email: svnh089@gmail.com
 description: This is an SAP Data Analyst Portfolio of Nirmal Hruday S V
 keywords: Nirmal, Hruday, SAP, Bengaluru, Data
 
 # Build settings
 markdown: kramdown
-permalink: "/index"
+permalink: "/index" 
 
 collections:
     projects:
