@@ -1,0 +1,31 @@
+url: https://apoorvasingla.github.io
+
+# Site settings
+title: SAP Data Analyst Portfolio
+phone: +91-XXXXXXXXXX
+email: XXXXX@gmail.com
+description: This is an SAP Data Analyst Portfolio of Nirmal Hruday S V
+keywords: Nirmal, Hruday, SAP, Bengaluru, Data
+
+# Build settings
+markdown: kramdown
+permalink: "/index"
+
+collections:
+    projects:
+        output: true
+        permalink: project/:title
+
+skills:
+  - name: SAP Master Data Management
+    percent: 85
+  - name: SAP S/4 HANA
+    percent: 80
+  - name: Data Governance
+    percent: 85
+  - name: Procurement with SAP ERP
+    percent: 90
+  - name: SAP MM (Materials Management)
+    percent: 80
+  - name: SAP Business Technology Platform
+    percent: 50

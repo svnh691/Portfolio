@@ -1,0 +1,61 @@
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 009688
+  secondary: 00897B
+  secondary-dark: 333
+  muted: 777
+  skill: 009688
+
+# Font Families
+font:
+  primary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
+  secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
+  tertiary: '"Stylus", Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif'
+
+skill:
+  height: 375
+  vr-height: 75
+  color:
+    name: 009688
+    percent: ffffff
+  box:
+    width: 125
+  bar:
+    width: 65
+  margin:
+    top: 130        #(=vr-height+55)
+  mobile:
+    height: 200
+    vr-height: 40
+    box:
+      width: 70
+    bar:
+      width: 40
+    margin:
+      top: 80       #(=vr-height+40)
+
+
+project:
+  thumbnail:
+    size: 300
+    h3:
+      height: 120
+      padding: 85
+  margin:
+    topbottom: 30
+  hover:
+    color: rgba(0,150,136, 0.7)
+
+  mobile:
+    thumbnail:
+      size: 200
+      h3:
+        height: 80
+        padding: 55
+    margin:
+      topbottom: 33
+    hover:
+      color: rgba(0,150,136, 0.7)
+
+
+wow-delay: 0.3

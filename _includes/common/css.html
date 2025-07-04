@@ -1,0 +1,22 @@
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="{{ "/css/materialize.min.css" | prepend: site.baseurl }}">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
+
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="{{ "/css/animate.min.css" | prepend: site.baseurl }}">
+
+    {% if page.layout != "default" %}
+        {% include {{ page.layout }}/css.html %}
+    {% else %}
+        {% include home/css.html %}
+    {% endif %}
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="{{ "/css/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>

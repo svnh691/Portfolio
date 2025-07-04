@@ -1,0 +1,46 @@
+<!-- Single Project -->
+    <section id="single-project">
+        <div class="container">
+            <!-- <div class="row"> -->
+                <!-- <div class="col-sm-8">
+                    <article class="gallery"  itemscope itemtype="http://schema.org/ImageGallery">
+                        {% for image in page.images %}
+                            <figure itemprop="associatedMedia" class="wow zoomIn" data-wow-duration="0.7s" data-wow-delay="{{ forloop.index | minus: 1 | modulo: 3 | times: 0.3 }}s">
+                                <a href="{{ site.baseurl }}/img/projects/{{ page.title }}/full/{{ image.file }}" itemprop="contentUrl" data-size="{{ image.size }}">
+                                    <img src="{{ site.baseurl }}/img/projects/{{ page.title }}/thumbs/{{ image.file }}" itemprop="thumbnail" alt="{{ image.title }}" />
+                                </a>
+                                <figcaption itemprop="caption description">{{ image.title }}</figcaption>
+                            </figure>
+                        {% endfor %}
+                    </article>
+                </div> -->
+
+                    <div class="about-project">
+                        <div class="card-panel">
+                            <h4>Brief</h4>
+                            <hr>
+                            <span>{{ page.content }}</span>
+                        </div>
+                    </div>
+
+            <!-- </div> -->
+
+            <div class="row">
+                <div class="project-navigation">
+                    <div class="col-xs-4">
+                        {% if page.previous %}
+                        <a href="{{ page.previous.url | prepend: site.baseurl }}" ><i class="mdi-navigation-chevron-left"></i></a>
+                        {% endif %}
+                    </div>
+                    <div class="col-xs-4">
+                        <a href="{{ "/#projects" | prepend: site.baseurl }}" ><i class="mdi-action-view-module"></i></a>
+                    </div>
+                    <div class="col-xs-4">
+                        {% if page.next %}
+                        <a href="{{ page.next.url | prepend: site.baseurl }}" ><i class="mdi-navigation-chevron-right"></i></a>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>

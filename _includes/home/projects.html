@@ -1,0 +1,27 @@
+<!-- Projects Section -->
+    <section id="projects" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Work experience</h2>
+                </div>
+            </div>
+            <div class="row margin-30">
+            {% for project in site.projects %}
+                <div class="col-md-4 col-sm-6 project wow zoomIn" data-wow-duration="0.7s" data-wow-delay="{{ forloop.index | minus: 1 | modulo: 3 | times: site.data.template.wow-delay }}s">
+                    <div class="project-tile">
+                        <a href="{{ project.url | prepend: site.baseurl }}" class="circle">
+                        <div class="ch-item pointer" style="background-image: url('{{ site.baseurl }}/img/projects/thumbs/{{ project.subtitle }}.jpg');">
+                            <div class="ch-info">
+                                <h3 style="font-size: 14px;">{{ project.title }}</h3>
+                                <p>{{ project.subtitle }}</p>
+                                <p>{{ project.project-date }}</p>
+                            </div>
+                        </div> 
+                        </a>
+                    </div>
+                </div>
+            {% endfor %}
+            </div>
+        </div>
+    </section>
